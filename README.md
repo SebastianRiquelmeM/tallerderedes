@@ -2,7 +2,7 @@
 
 Este es un projecto para tener un servidor y un cliente, que operan mediante FTP.
 
------------------------ SERVER -------------------------------
+##----------------------- SERVER -------------------------------
 
 Para hacer build del dockerfile del server:
 
@@ -14,7 +14,7 @@ Para hacer run del serverftp:
 
 `sudo docker run -it serverftp`
 
------------------------ CLIENT --------------------------------
+##----------------------- CLIENT --------------------------------
 
 Para hacer build del dockerfile del client:
 
