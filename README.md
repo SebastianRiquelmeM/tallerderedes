@@ -2,6 +2,8 @@
 
 Este es un projecto para tener un servidor y un cliente, que operan mediante FTP.
 
+## Descargar proyecto
+
 Para ejecutar el projecto puedes ejecutar:
 
 `git clone https://github.com/Vodkamina/tarea2_tallerderedes.git`
