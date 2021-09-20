@@ -32,6 +32,8 @@ Para hacer build del dockerfile del client:
 
 `sudo docker build -t clientftp .`
 
+Donde "clientftp" puede ser cambiado por cualquier nombre.
+
 Para hacer run del clientftp:
 
 `sudo docker run -it clientftp`
