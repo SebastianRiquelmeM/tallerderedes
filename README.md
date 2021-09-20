@@ -12,7 +12,9 @@ O si no quieres que se cree una carpeta y tienes un directorio vacío:
 
 `git clone https://github.com/Vodkamina/tarea2_tallerderedes.git .`
 
-## SERVER
+## Configurar Server y Client
+
+### SERVER
 
 Para hacer build del dockerfile del server:
 
@@ -24,7 +26,7 @@ Para hacer run del serverftp:
 
 `sudo docker run -it serverftp`
 
-## CLIENT
+### CLIENT
 
 Para hacer build del dockerfile del client:
 
