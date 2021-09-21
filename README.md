@@ -1,6 +1,6 @@
 # Tarea 2 Taller de redes
 
-Este es un projecto para tener un servidor y un cliente, que operan mediante FTP.
+Este es un proyecto para tener un servidor y un cliente, que operan mediante FTP.
 
 ## Descargar proyecto
 
