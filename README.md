@@ -38,6 +38,8 @@ Para hacer run del clientftp:
 
 `sudo docker run -it clientftp`
 
+video: https://youtu.be/Bw1tr8mGa-E
+
 # Tarea 3 Taller de redes
 
 Video: https://youtu.be/7RPLNJcl79A
