@@ -71,4 +71,4 @@ utilizaremos la herramienta IDS Snort, donde se generan las 5 reglas en las cual
 vulnerabilidades o anormalidades que presenta el protocolo.
 
 Video: https://youtu.be/PVuvOav0QtI
-
+# Basti si participo en esta tarea, no obstante por diversos motivos no subio nada.
