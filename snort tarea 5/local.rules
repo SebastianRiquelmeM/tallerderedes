@@ -1,0 +1,20 @@
+#Reglas Snort para FTP, estas son cargadas en etc/snort.conf
+
+#REGLA con PCRE
+#alert tcp any any -> 172.17.0.2 21 (pcre:"/user\s+usuario/i"; msg:"FTP user root correcto"; sid:1000001; rev:1;)
+
+#REGLA con PCRE que reemplaza activate/dynamic
+#alert tcp any any -> 172.17.0.2 21 (pcre:"/RMD/i"; msg:"FTP borrado de directorio"; sid:1000001; rev:1;)
+
+#Regla con OFFSET
+#alert tcp any any -> 172.17.0.2 21 (content:"usuario"; offset:5; msg:"FTP pass de root"; sid:1000003; rev:1;)
+
+#Regla con ISDATAAT
+#alert tcp any any -> 172.17.0.2 21 (content:"MKD"; isdataat:10,relative; content:" "; within:10; msg:"MKDIR largo"; sid:1000004; rev:1;)
+
+#Regla con FLOW
+alert tcp any any -> 172.17.0.2 21 (content:"USER root"; flow:to_server,established; msg:"FTP intento de logueo ROOT"; sid:1000002; rev:1;)
+
+
+
+
